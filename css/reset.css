@@ -1,0 +1,38 @@
+/* 常用基本标签重设 */
+html,
+body { height: 100%; }
+body { font-size: 12px; -webkit-font-smoothing: antialiased; background-color: #fff; font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;}
+body, div, p, a, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+em { font-style: normal; }
+a { text-decoration: none; color: #666; display: inline-block; }
+a:hover { text-decoration: none; color: red;}
+img { border: 0; vertical-align: middle; }
+li { list-style: none; }
+label { display: inline-block; }
+table { border-spacing: 0; border-collapse: collapse; }
+form { display: inline-block; width: 100%; }
+input { vertical-align: middle; outline: 0; }
+textarea { resize: none; line-height: 20px; overflow-y: auto; }
+button { border: none; background: none; text-align: center; }
+:focus { outline: 0; }
+
+.center{width:1190px;margin:0 auto;}
+body{ background: #f0f3ef; }
+.clearfix{ *zoom:1; }
+.clearfix:after{
+	content: "";
+	display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+.appear{
+	display: block!important;
+}
+
+/*#container a{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}*/

@@ -1,0 +1,429 @@
+header {
+  z-index: 20;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  color: #8f8f8f;
+  background-color: #e3e4e5;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+header .topList {
+  position: relative;
+  height: 100%;
+}
+header .topList .jdLogo {
+  position: absolute;
+  top: 0;
+  box-shadow: 0px -10px 10px #c5c5c5;
+  width: 190px;
+  height: 171px;
+  background: url(../images/index_images/sprite.head.png);
+}
+header .topList .address {
+  position: relative;
+  margin-left: 200px;
+  float: left;
+}
+header .topList .address > span {
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+header .topList .address > span i.addr {
+  position: absolute;
+  width: 18px;
+  height: 28px;
+  background: url(../images/index_images/address.png) center no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  margin-left: -20px;
+}
+header .topList .address:hover span {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+header .topList .address:hover .top_show {
+  display: block;
+}
+header .topList .address .addressList {
+  width: 300px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 29px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+header .topList .address .addressList li {
+  float: left;
+  width: 60px;
+  padding: 2px 0;
+}
+header .topList .address .addressList li:hover a {
+  background-color: #f4f4f4;
+  color: #e33333;
+}
+header .topList .address .addressList li .add_checked {
+  background-color: #e33333;
+  color: #fff;
+}
+header .topList .address .addressList li a {
+  padding: 0 8px;
+  height: 24px;
+  line-height: 24px;
+}
+header .topList .topNav {
+  float: right;
+}
+header .topList .topNav li {
+  float: left;
+}
+header .topList .topNav li:hover .dd {
+  display: block;
+}
+header .topList .topNav li .dt {
+  position: relative;
+  padding-right: 7px;
+  padding-left: 7px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  z-index: 1;
+  height: 29px;
+  line-height: 30px;
+}
+header .topList .topNav li .dt:hover a {
+  color: #f10215;
+}
+header .topList .topNav li .dt .down {
+  position: absolute;
+  top: 10px;
+  width: 14px;
+  height: 14px;
+  background: url(../images/index_images/down.png) center no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+header .topList .topNav li .dd {
+  position: absolute;
+  top: 30px;
+  display: none;
+  line-height: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+header .topList .topNav li .dd .list1 > div,
+header .topList .topNav li .dd .list2 > div {
+  float: left;
+  width: 126px;
+}
+header .topList .topNav li .dd a:hover {
+  color: #f10215;
+}
+header .topList .topNav li .dd .list1 {
+  padding: 10px 10px 10px 15px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+header .topList .topNav li .dd .list2 {
+  padding: 10px 10px 10px 15px;
+  overflow: hidden;
+}
+header .topList .topNav li .dd .jdlist {
+  width: 280px;
+}
+header .topList .topNav li .dd .enterpri {
+  width: 140px;
+  padding: 10px 10px 10px 15px;
+  overflow: hidden;
+}
+header .topList .topNav li .dd .enterpri li {
+  width: 60px;
+}
+header .topList .topNav li .dd .customer {
+  right: 0;
+  width: 155px;
+  padding: 10px 0 0;
+}
+header .topList .topNav li .dd .customer .fore1,
+header .topList .topNav li .dd .customer .fore2 {
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border-bottom: 1px solid #ccc;
+}
+header .topList .topNav li .dd .customer .fore1 h1,
+header .topList .topNav li .dd .customer .fore2 h1 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+}
+header .topList .topNav li .dd .customer .fore1 ul,
+header .topList .topNav li .dd .customer .fore2 ul {
+  overflow: hidden;
+}
+header .topList .topNav li .dd .customer .fore1 ul li,
+header .topList .topNav li .dd .customer .fore2 ul li {
+  width: 70px;
+}
+header .topList .topNav li .dd .customer .fore2 {
+  padding-top: 10px;
+  border-bottom: none;
+}
+header .topList .topNav li .dd .navgation {
+  width: 1190px;
+  padding: 15px 0;
+  overflow: hidden;
+}
+header .topList .topNav li .dd .navgation > div {
+  float: left;
+}
+header .topList .topNav li .dd .navgation > div > h1 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 5px;
+}
+header .topList .topNav li .dd .navgation .theme {
+  width: 340px;
+  padding-left: 19px;
+  border-right: 1px solid #e0e0e0;
+}
+header .topList .topNav li .dd .navgation .theme .stheme {
+  overflow: hidden;
+}
+header .topList .topNav li .dd .navgation .theme .stheme li {
+  width: 85px;
+}
+header .topList .topNav li .dd .navgation .channel,
+header .topList .topNav li .dd .navgation .life,
+header .topList .topNav li .dd .navgation .more {
+  width: 255px;
+  padding-left: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+header .topList .topNav li .dd .navgation .channel ul,
+header .topList .topNav li .dd .navgation .life ul,
+header .topList .topNav li .dd .navgation .more ul {
+  overflow: hidden;
+}
+header .topList .topNav li .dd .navgation .channel ul li,
+header .topList .topNav li .dd .navgation .life ul li,
+header .topList .topNav li .dd .navgation .more ul li {
+  width: 85px;
+}
+header .topList .topNav li .dd .navgation .more {
+  border-right: none;
+}
+header .topList .topNav li .psrig {
+  right: 0;
+}
+header .topList .topNav li .mgrig {
+  right: -76px;
+}
+header .topList .topNav li .dw-icon {
+  padding-right: 20px;
+}
+header .topList .topNav li.dropdown {
+  position: relative;
+}
+header .topList .topNav li.dropdown:hover .dw-icon {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+header .topList .topNav li.dropdown:hover .dd {
+  display: block;
+}
+header .topList .topNav li.space {
+  width: 1px;
+  height: 10px;
+  margin: 11px 5px 0;
+  background-color: #ccc;
+}
+header .topList .topNav > li:first-child {
+  margin-right: 8px;
+}
+header .topList .topNav > li:first-child a:nth-child(2) {
+  color: #f10215;
+}
+header a {
+  color: #999;
+}
+#searchfix {
+  display: none;
+  z-index: 999;
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  top: -60px;
+  border-bottom: 2px solid #f10214;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#searchfix .logo {
+  margin-top: 5px;
+  width: 127px;
+  height: 43px;
+  background: url(../images/index_images/sprite.head.png);
+  background-position: -207px 0;
+}
+#searchfix a {
+  float: left;
+}
+#searchfix .fsearch {
+  margin-left: 350px;
+  position: relative;
+}
+#searchfix .fsearch input {
+  width: 500px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  margin-top: 7px;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 4px 44px 4px 4px;
+  border: 1px solid transparent;
+  background-color: #efefef;
+}
+#searchfix .fsearch input::-webkit-input-placeholder {
+  color: #7b7b7b;
+}
+#searchfix .fsearch i {
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  top: 18px;
+  left: 470px;
+  background: url(../images/index_images/sprite-photo-search.png) no-repeat;
+  cursor: pointer;
+}
+#searchfix .fsearch i:hover {
+  background-position: -30px 0;
+}
+#searchfix .fsearch span.fdj {
+  display: inline-block;
+  width: 50px;
+  height: 36px;
+  background: #f10214 url(../images/index_images/search.png) no-repeat center center;
+  background-size: 25px 25px;
+  cursor: pointer;
+  margin-top: 7px;
+}
+#rightfixed {
+  width: 35px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  border-right: 6px solid #7a6e6e;
+}
+#rightfixed .topList {
+  position: fixed;
+  right: 0;
+  top: 35%;
+}
+#rightfixed .topList li {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 1px;
+  background-color: #7a6e6e;
+  cursor: pointer;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+  border-radius: 4px 0 0 4px;
+}
+#rightfixed .topList li:nth-child(1) {
+  background-image: url(../images/index_images/right_person.png);
+}
+#rightfixed .topList li:nth-child(2) {
+  background-image: url(../images/index_images/right_car.png);
+}
+#rightfixed .topList li:nth-child(3) {
+  background-image: url(../images/index_images/right_heart.png);
+  background-size: 29px 28px;
+  background-position: 5px center;
+}
+#rightfixed .topList li:nth-child(4) {
+  background-image: url(../images/index_images/right_time.png);
+}
+#rightfixed .topList li:nth-child(5) {
+  background-image: url(../images/index_images/right_txt.png);
+  background-size: 18px 18px;
+}
+#rightfixed .topList li:nth-child(6) {
+  background-image: url(../images/index_images/right_birde.png);
+}
+#rightfixed .topList li:nth-child(7) {
+  background-image: url(../images/index_images/right_edit.png);
+}
+#rightfixed .topList li div {
+  width: 62px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #c81623;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+  left: 36px;
+  border-radius: 4px 0 0 4px;
+  transition: left 0.3s ease;
+}
+#rightfixed .topList li:hover {
+  background-color: #c81623;
+}
+#rightfixed .topList li:hover div {
+  left: -60px;
+}
+#rightfixed .belowList {
+  width: 35px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 200;
+}
+#rightfixed .belowList li {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: #7a6e6e;
+  cursor: pointer;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+  border-radius: 4px 0 0 4px;
+}
+#rightfixed .belowList li:nth-child(1) {
+  background-image: url(../images/index_images/right_top.png);
+}
+#rightfixed .belowList li div {
+  width: 62px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #c81623;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+  left: 36px;
+  border-radius: 4px 0 0 4px;
+  transition: left 0.3s ease;
+}
+#rightfixed .belowList li:hover {
+  background-color: #c81623;
+}
+#rightfixed .belowList li:hover div {
+  left: -60px;
+}
