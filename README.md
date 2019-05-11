@@ -5,4 +5,5 @@
 >        也用JavaScript实现延迟加载图片，剩下的是css方面的练习了  
 >    
 > 预览： [点击查看](https://zhouyijieqm.github.io/imitate-JD.com/index.html)   
-
+>  
+> ![预览图](https://zhouyijieqm.github.io/imitate-JD.com/prev.png)
